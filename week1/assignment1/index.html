@@ -1,125 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>An Ode to Sally</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f5f5f5;
+  <meta charset="UTF-8">
+  <title>A Dream Within A Dream</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+
+  <style>
+    #header {
+      font-style: italic;
+      color: white;
+      padding: 5px;
         }
-        
-        h1 {
-            color: #2a2f3c;
-            text-align: center;
-        }
-        
-        .highlight {
-            background-color: yellow;
-            padding: 10px;
-        }
-        
-        #special-paragraph {
-            color: blue;
-            font-size: 18px;
-        }
-    </style>
+
+    body {
+      color: #fff;
+      font-family: 'Georgia', cursive;
+      font-size: 100;
+      text-align: center;
+      margin: 0;
+      padding: 50px 20px;
+
+      background-image: url('https://as1.ftcdn.net/v2/jpg/02/10/65/84/1000_F_210658468_1cdT2lpEi7b1PcP3kBjIDVPLNH7trezj.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+
+    }
+
+    h1, h2 {
+      font-family: 'Jim Nightshade';
+      font-size: 200px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    .highlight {
+      background-color: #fff;
+      color: #000;
+      padding: 10px;
+    }
+
+    #special-paragraph {
+      color: #e0e0f0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    figure {
+      border: thin silver solid;
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+      max-width: 220px;
+      margin: 40px auto;
+    }
+
+    figure img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      background-color: #222;
+      color: white;
+      font: italic smaller sans-serif;
+      padding: 3px;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 20px;
+      color: #888;
+    }
+  </style>
 </head>
 
 <body>
-    <h1>I have a pet cat named Sally</h1>
-    <h2>We found her looking scared-y</h2>
-    <h3>In a petsmart in Spokane</h3>
-    <h4>where we used to live, so dreary!</h4>
-    
-   <p class="highlight">She won't scratch you, but she'll bite<br>
-        when you rub her tummy, so fine</p>
-    <p id="special-paragraph">she'll chase a squirrel or two<br>
-        but will run away from baby brother, so true!
-    </p>
+  <div id="header">"Believe nothing you hear, and only half of what you see"</div>
+  <h1>A Dream Within A Dream</h1>
+  <h2>by Edgar Allan Poe</h2>
+
+  <p class="highlight">
+    <strong>Take this kiss upon the brow!</strong><br>
+    And, in parting from you now,<br>
+    Thus much let me avow —<br>
+    You are not wrong, who deem<br>
+    That my days have been a dream;<br>
+    Yet if hope has flown away<br>
+    In a night, or in a day,<br>
+    In a vision, or in none,<br>
+    Is it therefore the less gone? <br>
+    All that we see or seem<br>
+    Is but a dream within a dream.<br>
+    <br>
+    I stand amid the roar<br>
+    Of a surf-tormented shore,<br>
+    And I hold within my hand<br>
+    Grains of the golden sand —<br>
+    How few! yet how they creep<br>
+    Through my fingers to the deep,<br>
+    While I weep — while I weep!<br>
+    <strong>O God!</strong> Can I not grasp<br>
+    Them with a tighter clasp?<br>
+    <em>O God!</em> can I not save<br>
+    One from the pitiless wave?<br>
+    Is all that we see or seem<br>
+    <br>
+    <span style="font-weight: bold;">But a dream within a dream?</span>
+  </p>
+
+  <label for="story">What is "A Dream Within A Dream" about?</label>
+  <br>
+  <textarea id="story" name="story" rows="5" cols="33">
+  The poem explores the fragile boundary between reality and illusion. 
+  The author grieves the loss of a loved one and reflects on how life seems to be slipping away. 
+  That everything seems to lingering between a dream and reality, losing the grasp between the two...
+  </textarea>
+  
+
+  <p id="special-paragraph"> 
+    Other famous works by Edgar Allan Poe:<br>
+    <ul>
+      <li>- The Raven</li>
+      <li>- Lenore</li>
+      <li>- Annabel Lee</li>
+      <li>- The Fall of the House of Usher</li>
+      <li>- The Black Cat</li>
+    </ul>
+  </p>
+
+  <blockquote>
+    "Those who dream by day are cognizant of many things which escape those who dream only by night" - from Eleonora, 1841
+  </blockquote>
+
+  <p><small>Source: 
+    <a href="https://www.poetryfoundation.org/poems/52829/a-dream-within-a-dream" target="_blank" style="color:#f4f4fa;">Poetry Foundation</a></small>
+  </p>
+
+<details>
+  <summary>Next project</summary>
+  Stay tuned!
+</details>
+
+  <figure>
+    <img src="https://media.istockphoto.com/id/1189789308/photo/gorgeous-fluffy-black-cat-wearing-moony-sunglasses-pet-portrait.jpg?s=2048x2048&w=is&k=20&c=96XDG_qs27pN_R1AZ_Y-zAo800hz5cdWH6Ck7ZXPJW0=" alt="Black Cat with Sunglasses">
+    <figcaption>Casper the Cuddly Cat</figcaption>
+  </figure>
+
+  <footer> 
+    <p>©2025 CCCValencia</p>
+  </footer>
+
 </body>
-
-<div>This is a div block</div>
-<p>This is a paragraph</p>
-<h2>This is a heading</h2>
-<section>
-  <p>Content in a section</p>
-</section>
-<blockquote>
-  A famous quote
-</blockquote>
-
-<figure>
-    <style>
-        figure {
-            border: thin silver solid;
-            display: flex;
-            flex-flow: column;
-            padding: 5px;
-            max-width: 220px;
-            margin: auto;
-            }
-
-            img {
-            max-width: 220px;
-            max-height: 150px;
-            }
-
-            figcaption {
-            background-color: #222222;
-            color: white;
-            font: italic smaller sans-serif;
-            padding: 3px;
-            text-align: center;
-            }
-    </style>
-  <img
-    src="/shared-assets/images/examples/elephant.jpg"
-    alt="Elephant at sunset" />
-  <figcaption>An elephant at sunset</figcaption>
-</figure>
-
-<p>This text is <strong>bold</strong> 
-and this is <em>italic</em>.</p>
-
-<p>Visit <a href="#">this link</a> or 
-use <code>inline code</code>.</p>
-
-<cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a></cite> 
-
-<p><span>Span 1</span> 
-<span>Span 2</span> 
-<span>Span 3</span></p>
-
-<p>This is a paragraph.</p>
-<strong>Bold text</strong>
-<em>Italic text</em>
-<mark>Highlighted text</mark>
-
-<blockquote>A quotation</blockquote>
-<pre>Preformatted text</pre>
-<address>Contact info</address>
-
-<ul>
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item</li>
-</ul>
-
-<ol>
-  <li>Step one</li>
-  <li>Step two</li>
-  <li>Step three</li>
-</ol>
-
-<dl>
-  <dt>Term</dt>
-  <dd>Definition</dd>
-</dl>
-
-<footer> 
-    <p>© 2025 CValencia </p>
-</footer>
-
 </html>

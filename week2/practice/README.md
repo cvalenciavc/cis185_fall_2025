@@ -1,1 +1,1 @@
-# MDN CSS Basics walkthrough with additional selectors
+# Practice for Week 2
